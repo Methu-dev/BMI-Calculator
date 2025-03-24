@@ -18,6 +18,7 @@ const calculatorBMI = () => {
     const bmiCategory = getBMICategory(bmi);
 
     resultDiv.innerHTML = `
+    <hr/>
     <p> Your age is: ${age} </>
     <p> Your BMI is: ${bmi.toFixed(2)} </>
     <p> You are: ${bmiCategory} </p>
